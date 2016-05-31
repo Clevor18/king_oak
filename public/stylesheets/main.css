@@ -3,7 +3,7 @@ html{
 }
 body{
     font-family: 'Open Sans', sans-serif; font-weight:300;
-    overflow-x:hidden; 
+    overflow-x:hidden;
 }
 p {
     color: #686868;
@@ -40,10 +40,20 @@ h1,h2,h3,h4,h5,h6{
     -webkit-transform: translateY(-120%);
     -ms-transform: translateY(-120%);
     transform: translateY(-120%);
+    z-index:2
 }
 .fullwidth-forced{
     width: 100% !important;
     margin-left: 0 !important;
+}
+
+.out {
+  position: center;
+  margin-top: 40%;
+}
+.out2{
+  position: center;
+  margin-top: 20%;
 }
 
 /*nav ************************************************* */
@@ -116,5 +126,3 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-
-
